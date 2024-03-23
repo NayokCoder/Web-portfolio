@@ -22,12 +22,13 @@ h1 {
 .half-width img {
 
     width: 75%;
-}
-.top-baner {
+    }
 
+/* .top-baner {
+   
     background-image:url(Resourse/topbaner.png); 
     background-repeat: no-repeat; 
-    }
+    } */
 
 .link-btn {
         text-decoration: none;
@@ -47,12 +48,12 @@ h1 {
         font-weight: 700;
         }
 
-.dream-area {
+/* .dream-area {
 
     background-image:url(Resourse/topbaner.png); 
     background-repeat: no-repeat; 
     
-    }
+    } */
 
 .single-experience {
             
@@ -64,15 +65,20 @@ h1 {
 
 #Full-stack {
 
-    border-left:7px solid;
+    border-left:6px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
     }
 
-#Baby-stack {
+ #Baby-stack {
 
-    border-left: 7px solid ;
-    border-image: linear-gradient(180deg, rgb(17, 0, 255), cyan);
+    border-left: 6px solid ;
+    border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
-    
+     
+    }
+
+.error{
+
+    float: left;
 }
